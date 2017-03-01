@@ -1,3 +1,5 @@
+#!/usr/bin/python
+
 """
     Rename files in a folder using to all lower case and replace spaces with
     the underscore:

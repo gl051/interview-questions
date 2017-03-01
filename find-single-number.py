@@ -1,3 +1,5 @@
+#!/usr/bin/python
+
 """
     Problem: Given an array of integers, every element appears twice
     except for one. Find that single one. Your algorithm should have a linear

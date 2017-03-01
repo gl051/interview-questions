@@ -1,3 +1,5 @@
+#!/usr/bin/python
+
 """
     Problem: given an array of integers, find all elements where in a range
     of indexes, i and j, where i - j < D, where A[i] - A[j] < T

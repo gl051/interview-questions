@@ -1,3 +1,5 @@
+#!/usr/bin/env python
+
 """
     Problem:
     Given a binary tree check if it is a binary search tree.

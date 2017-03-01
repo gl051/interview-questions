@@ -1,3 +1,5 @@
+#!/usr/bin/python
+
 """
     Author: Gianluca Biccari
 

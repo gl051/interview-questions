@@ -1,3 +1,5 @@
+#!/usr/bin/python
+
 """
     Problem: given a binary tree and two nodes, find the lowest common ancestor.
     You can assume that the two nodes exist in the tree.
@@ -45,7 +47,7 @@ def __search_anchestor(node, value1, value2):
     elif (value1 > node.value) and (value2 > node.value):
         if node.right is not None:
             return __search_anchestor(node.right, value1, value2)
-    # if values split directions this is the lowest anchestor 
+    # if values split directions this is the lowest anchestor
     else:
         return node
 

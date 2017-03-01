@@ -1,3 +1,5 @@
+#!/usr/bin/env python
+
 """
     Archive all the files in a folder provided as parameter, make a directory
     based on the last modification time for the file.

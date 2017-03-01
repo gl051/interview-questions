@@ -1,3 +1,5 @@
+#!/usr/bin/env python
+
 """
     Given an assigned string, check if all the brackets are paired correctly.
     For example:
@@ -49,7 +51,7 @@ def check_brackets_complex(str):
 def check_brackets_optimized(str):
     """
         It uses only a counter instead of a stack to save on memory usage.
-        This is equivalent of check_brackets_simple	
+        This is equivalent of check_brackets_simple
     """
     counter = 0
     for c in str:

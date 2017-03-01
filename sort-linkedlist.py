@@ -1,5 +1,8 @@
+#!/usr/bin/python
+
 from datastructures import LinkedList
 import random
+
 
 class LinkedListSorted(LinkedList):
     def sort(self):

@@ -1,3 +1,5 @@
+#!/usr/bin/python
+
 """
     Problem: use recursion to find the position of an element in a list
 """

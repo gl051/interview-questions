@@ -1,3 +1,5 @@
+#!/usr/bin/python
+
 """
     Problem: return the most common words in a text file
 """

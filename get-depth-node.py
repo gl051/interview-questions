@@ -1,3 +1,5 @@
+#!/usr/bin/python
+
 """
     Problem: get the depth of a node of a given bst
     Solution: you calculate_depth the node and count how many depth you have crossed

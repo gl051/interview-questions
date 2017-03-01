@@ -1,3 +1,5 @@
+#!/usr/bin/python
+
 """
     Problem: search an element in a sorted array that has been rotated around
     a pivot value unkown to you.

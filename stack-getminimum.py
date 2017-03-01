@@ -1,3 +1,5 @@
+#!/usr/bin/python
+
 """
     Problem:
     Design a stack which holds an integer value such that getMinimum() function

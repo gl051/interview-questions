@@ -1,3 +1,5 @@
+#!/usr/bin/python
+
 """
     Problem: given the head of a linked list, find the last N elements
     Solution: the trick is using two pointers to build a window of N elements
@@ -12,7 +14,7 @@ import random
 def find_last_N(alist, n):
     if n == 0:
         print 'Wrong parameter provided, you asked to find 0 element'
-        return 
+        return
     first_node = alist.head
     last_node = alist.head
     # build a window spaced N

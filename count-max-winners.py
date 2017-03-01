@@ -1,3 +1,5 @@
+#!/usr/bin/env python
+
 """
     Problem: https://www.hackerearth.com/problem/algorithm/tournament-easy/
 """
@@ -30,5 +32,5 @@ for p in all:
         heapq.heappush(h, (count_win, prev_player))
         count_win = 0
     prev_player = p
-# print the heap, last element most succesfull player 
+# print the heap, last element most succesfull player
 print h

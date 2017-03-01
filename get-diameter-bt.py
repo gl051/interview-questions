@@ -1,3 +1,5 @@
+#!/usr/bin/python
+
 """
     Problem: calculate the diameter of a binary tree
     The diameter is the longest path between any two nodes in the tree, the path

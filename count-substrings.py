@@ -1,3 +1,5 @@
+#!/usr/bin/python
+
 """
      Problem: https://www.hackerearth.com/problem/algorithm/substrings-count-3/
 """
@@ -22,7 +24,7 @@ with open(filename,'r') as fin:
             L = int(L)
             R = int(R)
             count_match = 0
-            # per each Q val, search how many matches we have 
+            # per each Q val, search how many matches we have
             for i in range(L, R+1):
                 if str in words[i]:
                     count_match = count_match + 1

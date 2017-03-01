@@ -1,3 +1,5 @@
+#!/usr/bin/env python
+
 """
     Problem: given a string count only the letters it contains
 """

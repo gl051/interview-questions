@@ -1,3 +1,5 @@
+#!/usr/bin/python
+
 """
  Question: Given the head of a linked list, reverse it. Head could be None
  as well for empty list.

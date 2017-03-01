@@ -1,3 +1,5 @@
+#!/usr/bin/python
+
 """
     Problem: Implement binary search tree on a sorted list
 
