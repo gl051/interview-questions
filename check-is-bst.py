@@ -6,11 +6,11 @@
 
     Solution:
     Binary search tree implies that:
-    - the left subtree of a a node contains only nodes less
-    - the right subtree of a node contains only nodes greater/equals
+    - the left subtree of a a node contains only nodes less than itself
+    - the right subtree of a node contains only nodes greater/equals than itself
     - both left and right subtrees are binary search trees
-    Using an in order traversal, if a binary tree you will get an array of
-    ordered nodes, if not it means is not a binary tree.
+    Using an in order traversal, if this is a  binary tree you will get an array of
+    ordered nodes, if not it means is not a binary tree. 
 
 """
 
