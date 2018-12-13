@@ -6,7 +6,6 @@ def solution1(input):
     sarray = sorted(input)
     end = len(input) - 1
     for pos, val in enumerate(sarray):
-        print(pos, val)
         if pos < end and val == sarray[pos+1]:
             duplicates.append(val)
     return set(duplicates)
