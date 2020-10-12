@@ -1,13 +1,15 @@
-#!/usr/bin/python
-
 """
-    Problem: Implement binary search tree on a sorted list
-
+    Given a sorted list of integer
+    And a desired value to look for
+    Then implement a binary search to return the position of the element 
+    Or -1 if the value has been not found
 """
+
+CODE_VALUE_NOT_FOUND = -1
 
 def binary_search(lst, value):
     if lst is None:
-        return -1
+        return CODE_VALUE_NOT_FOUND
     else:
         return __binary_search(lst, value)
 
@@ -15,24 +17,16 @@ def __binary_search(lst, value):
     # when we reached an empty list it means
     # the record has not been found.
     if len(lst) == 0:
-        return -1
+        return CODE_VALUE_NOT_FOUND
 
     # get the middle position
-    middle = len(lst) / 2
+    middle = int(len(lst) / 2)
     # lucky, we found the value, return it!
     if value == lst[middle]:
-        return value
+        return middle
     # keep serching on the right
     if value > lst[middle]:
         return __binary_search(lst[middle+1:], value)
     # keep searching on the left
     if value < lst[middle]:
         return __binary_search(lst[:middle], value)
-
-l = [45, 67, 12, 78, 128]
-l.sort()
-print 'Input: ',    l
-print 'Find {0} in the list, returns: {1}'.format(78, binary_search(l, 78))
-print 'Find {0} in the list, returns: {1}'.format(12, binary_search(l, 12   ))
-print 'Find {0} in the list, returns: {1}'.format(128, binary_search(l, 128))
-print 'Find {0} in the list, returns: {1}'.format(1000, binary_search(l, 1000))
