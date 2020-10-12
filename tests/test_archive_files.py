@@ -1,6 +1,5 @@
 import pytest
 from pathlib import Path
-import shutil
 import archive_files
 
 def test_not_existing_directory():
